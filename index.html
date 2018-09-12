@@ -60,7 +60,7 @@
   </style>
 <body>
   <header>
-  <h1>Pokedex V. 0.0.3</h1>
+  <h1>Pokedex V. 0.0.4</h1>
       <div class="dropdown">
   <button onclick="dropGen()" class="dropbtn">Generation</button>
         <div id="myDropdown" class="dropdown-content">
@@ -87,6 +87,10 @@ window.onclick = function(event) {
     }
   }
 }
+      
+      function changePokeset() {
+    document.getElementById("Pokeset1").innerHTML = "Charmander";
+}
 </script>
   </header>
     <footer2>  
@@ -98,5 +102,9 @@ window.onclick = function(event) {
   <footer>
     <p>PlaceHolder</p>
   </footer>
+  <footer3>
+    <h2 id="Pokeset1">Bulbasaur</h2> 
+    /* <input type="button" onclick="changePokeset()" value="Next Page."> */
+  </footer3>
 </body>
 </html>
